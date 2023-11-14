@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --text-color:#222121;
+    --text-color-black:#000000;
+    --bg-color:#d9e8e5;
+    --bg-color-white:#ffff;
+}
+
+html {
+    font-family: 'Lato';
+    font-size: 62.5%;
+}
+p{
+    font-size: 1.4rem;
+}
+
+a{
+    color: var(--text-color-black);
+}
+
+/* --------- Header ------------ */
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin-right: 2em;
+    color:var(--text-color);
+}
+.logo img {
+    width: 3rem;
+    height: 3rem;
+}
+.logo h1 {
+    font-weight: 400;
+    padding-left: 0.1em;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+}
+nav ul {
+    display: flex;
+    flex: auto;
+    padding: 1em 4em;
+}
+
+.push__right {
+    margin-left: auto
+}
+
+nav a{
+    padding: 0 1.2rem;
+    font-size: 2rem;
+}
+
+/* --- main --- */
+
+main {
+    background-color: var(--bg-color);
+    padding: 10rem;
+}
+
+main h2 {
+    font-size: 2.5rem;
+    margin: 0 2vw 3rem 0;
+    color: var(--text-color-black);
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* ------ rings ------ */
+
+.ring-bg-style {
+    width: 350px;
+    height: 250px;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 2rem 1rem 0;
+}
+
+.bg-ring1{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
+.bg-ring2{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
+.bg-ring3{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
+.bg-ring4{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
+.bg-ring5{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
+.bg-ring6{
+    background: url('../img/milad-fakurian-dgrcevUROak-unsplash.jpg') center/cover no-repeat;
+}
